@@ -1,4 +1,4 @@
-CSS files are chunked per page. CSS only present in another page is exposed to unrelated pages.
+CSS files are not chunked per page. CSS only present in another page is exposed to unrelated pages.
 This leads in larger applications to huge (and many) CSS files. Which is bad for performance.
 
 To reproduce:
