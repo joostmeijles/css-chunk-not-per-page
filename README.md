@@ -2,9 +2,11 @@ CSS files are not chunked per page. CSS only present in another page is exposed 
 This leads in larger applications to huge (and many) CSS files. Which is bad for performance.
 
 To reproduce:
+```
 > pnpm i
 > pnpm run build
 > pnpm run start
+```
 
 Visit http://localhost:3000 and inspect the CSS file (or skip above and visit https://css-chunk-not-per-page.vercel.app/).
 
