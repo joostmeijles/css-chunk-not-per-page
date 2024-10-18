@@ -6,7 +6,7 @@ To reproduce:
 > pnpm run build
 > pnpm run start
 
-Visit http://localhost:3000 and inspect the CSS file. 
+Visit http://localhost:3000 and inspect the CSS file (or skip above and visit https://css-chunk-not-per-page.vercel.app/).
 
 It shows the CSS for all pages:
 ```
